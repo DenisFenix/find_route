@@ -28,6 +28,8 @@ class Train(models.Model):
     class Meta:
         verbose_name = 'Поезд'
         verbose_name_plural = 'Поезда'
+        # Метод сортировки на странице
+        # name - по имени, travel_time - по времени, from_city - из какого города, to_city - в какой город
         ordering = ['travel_time']
 
     def clean(self):
