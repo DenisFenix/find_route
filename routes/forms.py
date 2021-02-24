@@ -1,5 +1,7 @@
 from django import forms
 from cities.models import City
+from routes.models import Route
+from trains.models import Train
 
 
 class RouteForm(forms.Form):
@@ -18,3 +20,27 @@ class RouteForm(forms.Form):
                                          widget=forms.NumberInput(
                                              attrs={'class': 'form-control', 'placeholder': 'Время в пути'}
                                          ))
+
+
+class RouteModelForm(forms.ModelForm):
+    name = forms.CharField(label='Название маршрута',
+                           widget=forms.TextInput(attrs={
+                               'class': 'form-control',
+                               'placeholder': 'Введите название маршрута'
+                           }))
+    from_city = forms.ModelChoiceField(label='Откуда',
+                                       queryset=City.objects.all(),
+                                       widget=forms.HiddenInput())
+    to_city = forms.ModelChoiceField(label='Куда',
+                                     queryset=City.objects.all(),
+                                     widget=forms.HiddenInput())
+    trains = forms.ModelMultipleChoiceField(queryset=Train.objects.all(),
+                                            required=False,
+                                            widget=forms.SelectMultiple(
+                                                attrs={'class': 'form-control d-none'}))
+    # d-none для скрытия поля в Bootstrap, т.к. HiddenInput() не работает с ModelMultipleChoiceField
+    travel_times = forms.IntegerField(widget=forms.HiddenInput())
+
+    class Meta:
+        model = Route
+        fields = '__all__'
