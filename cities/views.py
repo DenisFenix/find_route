@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, CreateView, UpdateView, DeleteView, ListView
@@ -41,7 +42,7 @@ class CityDetailView(DetailView):
     template_name = 'cities/detail.html'
 
 
-class CityCreateView(SuccessMessageMixin, CreateView):
+class CityCreateView(SuccessMessageMixin, LoginRequiredMixin, CreateView):
     model = City
     form_class = CityForm
     template_name = 'cities/create.html'
@@ -49,7 +50,9 @@ class CityCreateView(SuccessMessageMixin, CreateView):
     success_message = 'Город успешно создан'
 
 
-class CityUpdateView(SuccessMessageMixin, UpdateView):
+class CityUpdateView(SuccessMessageMixin, LoginRequiredMixin, UpdateView):
+    #  LoginRequiredMixin нужно добавлять после SuccessMessageMixin, если такое существует
+    #  Только в этом случае все будет работать
     model = City
     form_class = CityForm
     template_name = 'cities/update.html'
@@ -57,7 +60,7 @@ class CityUpdateView(SuccessMessageMixin, UpdateView):
     success_message = 'Город успешно отредактирован'
 
 
-class CityDeleteView(DeleteView):
+class CityDeleteView(LoginRequiredMixin, DeleteView):
     model = City
     # Для удаления с подтверждением
     # template_name = 'cities/delete.html'
