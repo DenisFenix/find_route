@@ -175,4 +175,5 @@ LOGGING = {
         },
     }
 }
-STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
+# STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
