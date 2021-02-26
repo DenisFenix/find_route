@@ -3,63 +3,63 @@
   "model": "cities.city",
   "pk": 1,
   "fields": {
-    "name": "Мадрид"
+    "name": "РњР°РґСЂРёРґ"
   }
 },
 {
   "model": "cities.city",
   "pk": 2,
   "fields": {
-    "name": "Варшава"
+    "name": "Р’Р°СЂС€Р°РІР°"
   }
 },
 {
   "model": "cities.city",
   "pk": 3,
   "fields": {
-    "name": "Хельсинки"
+    "name": "РҐРµР»СЊСЃРёРЅРєРё"
   }
 },
 {
   "model": "cities.city",
   "pk": 4,
   "fields": {
-    "name": "Лондон"
+    "name": "Р›РѕРЅРґРѕРЅ"
   }
 },
 {
   "model": "cities.city",
   "pk": 5,
   "fields": {
-    "name": "Краков"
+    "name": "РљСЂР°РєРѕРІ"
   }
 },
 {
   "model": "cities.city",
   "pk": 6,
   "fields": {
-    "name": "Вена"
+    "name": "Р’РµРЅР°"
   }
 },
 {
   "model": "cities.city",
   "pk": 7,
   "fields": {
-    "name": "Гамбург"
+    "name": "Р“Р°РјР±СѓСЂРі"
   }
 },
 {
   "model": "cities.city",
   "pk": 9,
   "fields": {
-    "name": "Берлин"
+    "name": "Р‘РµСЂР»РёРЅ"
   }
 },
 {
   "model": "routes.route",
   "pk": 11,
   "fields": {
-    "name": "Лондон - Гамбург",
+    "name": "Р›РѕРЅРґРѕРЅ - Р“Р°РјР±СѓСЂРі",
     "travel_times": 870,
     "from_city": 4,
     "to_city": 7,
@@ -72,7 +72,7 @@
   "model": "routes.route",
   "pk": 12,
   "fields": {
-    "name": "Лондон - Берлин",
+    "name": "Р›РѕРЅРґРѕРЅ - Р‘РµСЂР»РёРЅ",
     "travel_times": 852,
     "from_city": 4,
     "to_city": 9,
@@ -85,7 +85,7 @@
   "model": "routes.route",
   "pk": 13,
   "fields": {
-    "name": "Лондон - Мадрид",
+    "name": "Р›РѕРЅРґРѕРЅ - РњР°РґСЂРёРґ",
     "travel_times": 1213,
     "from_city": 4,
     "to_city": 1,
@@ -98,7 +98,7 @@
   "model": "routes.route",
   "pk": 14,
   "fields": {
-    "name": "Мадрид - Берлин",
+    "name": "РњР°РґСЂРёРґ - Р‘РµСЂР»РёРЅ",
     "travel_times": 1705,
     "from_city": 1,
     "to_city": 9,
@@ -111,7 +111,7 @@
   "model": "routes.route",
   "pk": 15,
   "fields": {
-    "name": "Мадрид - Вена",
+    "name": "РњР°РґСЂРёРґ - Р’РµРЅР°",
     "travel_times": 1724,
     "from_city": 1,
     "to_city": 6,
@@ -124,7 +124,7 @@
   "model": "routes.route",
   "pk": 16,
   "fields": {
-    "name": "Берлин - Гамбург",
+    "name": "Р‘РµСЂР»РёРЅ - Р“Р°РјР±СѓСЂРі",
     "travel_times": 224,
     "from_city": 9,
     "to_city": 7,
@@ -137,7 +137,7 @@
   "model": "routes.route",
   "pk": 17,
   "fields": {
-    "name": "Берлин - Варшава",
+    "name": "Р‘РµСЂР»РёРЅ - Р’Р°СЂС€Р°РІР°",
     "travel_times": 738,
     "from_city": 9,
     "to_city": 2,
@@ -150,7 +150,7 @@
   "model": "routes.route",
   "pk": 18,
   "fields": {
-    "name": "Берлин - Краков",
+    "name": "Р‘РµСЂР»РёРЅ - РљСЂР°РєРѕРІ",
     "travel_times": 597,
     "from_city": 9,
     "to_city": 5,
@@ -163,7 +163,7 @@
   "model": "routes.route",
   "pk": 19,
   "fields": {
-    "name": "Берлин - Вена",
+    "name": "Р‘РµСЂР»РёРЅ - Р’РµРЅР°",
     "travel_times": 543,
     "from_city": 9,
     "to_city": 6,
@@ -176,7 +176,7 @@
   "model": "routes.route",
   "pk": 20,
   "fields": {
-    "name": "Гамбург - Берлин",
+    "name": "Р“Р°РјР±СѓСЂРі - Р‘РµСЂР»РёРЅ",
     "travel_times": 228,
     "from_city": 7,
     "to_city": 9,
@@ -189,7 +189,7 @@
   "model": "routes.route",
   "pk": 21,
   "fields": {
-    "name": "Гамбург - Хельсинки",
+    "name": "Р“Р°РјР±СѓСЂРі - РҐРµР»СЊСЃРёРЅРєРё",
     "travel_times": 2553,
     "from_city": 7,
     "to_city": 3,
@@ -202,7 +202,7 @@
   "model": "routes.route",
   "pk": 22,
   "fields": {
-    "name": "Гамбург - Краков",
+    "name": "Р“Р°РјР±СѓСЂРі - РљСЂР°РєРѕРІ",
     "travel_times": 882,
     "from_city": 7,
     "to_city": 5,
@@ -215,7 +215,7 @@
   "model": "routes.route",
   "pk": 23,
   "fields": {
-    "name": "Вена - Варшава",
+    "name": "Р’РµРЅР° - Р’Р°СЂС€Р°РІР°",
     "travel_times": 617,
     "from_city": 6,
     "to_city": 2,
@@ -228,7 +228,7 @@
   "model": "routes.route",
   "pk": 24,
   "fields": {
-    "name": "Вена - Хельсинки",
+    "name": "Р’РµРЅР° - РҐРµР»СЊСЃРёРЅРєРё",
     "travel_times": 3380,
     "from_city": 6,
     "to_city": 3,
@@ -241,7 +241,7 @@
   "model": "routes.route",
   "pk": 25,
   "fields": {
-    "name": "Вена - Краков",
+    "name": "Р’РµРЅР° - РљСЂР°РєРѕРІ",
     "travel_times": 434,
     "from_city": 6,
     "to_city": 5,
@@ -254,7 +254,7 @@
   "model": "routes.route",
   "pk": 26,
   "fields": {
-    "name": "Варшава - Берлин",
+    "name": "Р’Р°СЂС€Р°РІР° - Р‘РµСЂР»РёРЅ",
     "travel_times": 501,
     "from_city": 2,
     "to_city": 9,
@@ -267,7 +267,7 @@
   "model": "routes.route",
   "pk": 27,
   "fields": {
-    "name": "Варшава - Гамбург",
+    "name": "Р’Р°СЂС€Р°РІР° - Р“Р°РјР±СѓСЂРі",
     "travel_times": 498,
     "from_city": 2,
     "to_city": 7,
@@ -280,7 +280,7 @@
   "model": "routes.route",
   "pk": 28,
   "fields": {
-    "name": "Варшава - Хельсинки",
+    "name": "Р’Р°СЂС€Р°РІР° - РҐРµР»СЊСЃРёРЅРєРё",
     "travel_times": 3335,
     "from_city": 2,
     "to_city": 3,
@@ -293,7 +293,7 @@
   "model": "routes.route",
   "pk": 29,
   "fields": {
-    "name": "Варшава - Краков",
+    "name": "Р’Р°СЂС€Р°РІР° - РљСЂР°РєРѕРІ",
     "travel_times": 305,
     "from_city": 2,
     "to_city": 5,
@@ -306,7 +306,7 @@
   "model": "routes.route",
   "pk": 30,
   "fields": {
-    "name": "Краков - Гамбург",
+    "name": "РљСЂР°РєРѕРІ - Р“Р°РјР±СѓСЂРі",
     "travel_times": 809,
     "from_city": 5,
     "to_city": 7,
@@ -319,7 +319,7 @@
   "model": "routes.route",
   "pk": 31,
   "fields": {
-    "name": "Краков - Хельсинки",
+    "name": "РљСЂР°РєРѕРІ - РҐРµР»СЊСЃРёРЅРєРё",
     "travel_times": 3421,
     "from_city": 5,
     "to_city": 3,
@@ -332,7 +332,7 @@
   "model": "routes.route",
   "pk": 32,
   "fields": {
-    "name": "Лондон - Хельсинки: 1",
+    "name": "Р›РѕРЅРґРѕРЅ - РҐРµР»СЊСЃРёРЅРєРё: 1",
     "travel_times": 4641,
     "from_city": 4,
     "to_city": 3,
@@ -348,7 +348,7 @@
   "model": "routes.route",
   "pk": 33,
   "fields": {
-    "name": "Лондон - Хельсинки: короткий маршрут",
+    "name": "Р›РѕРЅРґРѕРЅ - РҐРµР»СЊСЃРёРЅРєРё: РєРѕСЂРѕС‚РєРёР№ РјР°СЂС€СЂСѓС‚",
     "travel_times": 3423,
     "from_city": 4,
     "to_city": 3,
@@ -362,7 +362,7 @@
   "model": "routes.route",
   "pk": 36,
   "fields": {
-    "name": "Лондон - Хельсинки: 5",
+    "name": "Р›РѕРЅРґРѕРЅ - РҐРµР»СЊСЃРёРЅРєРё: 5",
     "travel_times": 4811,
     "from_city": 4,
     "to_city": 3,
@@ -372,6 +372,216 @@
       5,
       14
     ]
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 4,
+  "fields": {
+    "name": "TR1-London",
+    "travel_time": 870,
+    "from_city": 4,
+    "to_city": 7
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 5,
+  "fields": {
+    "name": "TR2-London",
+    "travel_time": 852,
+    "from_city": 4,
+    "to_city": 9
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 6,
+  "fields": {
+    "name": "TR3-London",
+    "travel_time": 1213,
+    "from_city": 4,
+    "to_city": 1
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 7,
+  "fields": {
+    "name": "TR1-Madrid",
+    "travel_time": 1705,
+    "from_city": 1,
+    "to_city": 9
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 8,
+  "fields": {
+    "name": "TR2-Madrid",
+    "travel_time": 1724,
+    "from_city": 1,
+    "to_city": 6
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 9,
+  "fields": {
+    "name": "TR1-Berlin",
+    "travel_time": 224,
+    "from_city": 9,
+    "to_city": 7
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 10,
+  "fields": {
+    "name": "TR2-Berlin",
+    "travel_time": 738,
+    "from_city": 9,
+    "to_city": 2
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 11,
+  "fields": {
+    "name": "TR3-Berlin",
+    "travel_time": 597,
+    "from_city": 9,
+    "to_city": 5
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 12,
+  "fields": {
+    "name": "TR4-Berlin",
+    "travel_time": 543,
+    "from_city": 9,
+    "to_city": 6
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 13,
+  "fields": {
+    "name": "TR1-Hamburg",
+    "travel_time": 228,
+    "from_city": 7,
+    "to_city": 9
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 14,
+  "fields": {
+    "name": "TR2-Hamburg",
+    "travel_time": 2553,
+    "from_city": 7,
+    "to_city": 3
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 15,
+  "fields": {
+    "name": "TR3-Hamburg",
+    "travel_time": 882,
+    "from_city": 7,
+    "to_city": 5
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 16,
+  "fields": {
+    "name": "TR1-Vena",
+    "travel_time": 617,
+    "from_city": 6,
+    "to_city": 2
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 17,
+  "fields": {
+    "name": "TR2-Vena",
+    "travel_time": 3380,
+    "from_city": 6,
+    "to_city": 3
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 18,
+  "fields": {
+    "name": "TR3-Vena",
+    "travel_time": 434,
+    "from_city": 6,
+    "to_city": 5
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 19,
+  "fields": {
+    "name": "TR1-Warszawa",
+    "travel_time": 501,
+    "from_city": 2,
+    "to_city": 9
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 20,
+  "fields": {
+    "name": "TR2-Warszawa",
+    "travel_time": 498,
+    "from_city": 2,
+    "to_city": 7
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 21,
+  "fields": {
+    "name": "TR3-Warszawa",
+    "travel_time": 3335,
+    "from_city": 2,
+    "to_city": 3
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 22,
+  "fields": {
+    "name": "TR4-Warszawa",
+    "travel_time": 305,
+    "from_city": 2,
+    "to_city": 5
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 23,
+  "fields": {
+    "name": "TR1-Cracow",
+    "travel_time": 809,
+    "from_city": 5,
+    "to_city": 7
+  }
+},
+{
+  "model": "trains.train",
+  "pk": 24,
+  "fields": {
+    "name": "TR2-Cracow",
+    "travel_time": 3421,
+    "from_city": 5,
+    "to_city": 3
   }
 }
 ]
