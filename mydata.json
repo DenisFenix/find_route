@@ -1,0 +1,377 @@
+[
+{
+  "model": "cities.city",
+  "pk": 1,
+  "fields": {
+    "name": "Мадрид"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 2,
+  "fields": {
+    "name": "Варшава"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 3,
+  "fields": {
+    "name": "Хельсинки"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 4,
+  "fields": {
+    "name": "Лондон"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 5,
+  "fields": {
+    "name": "Краков"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 6,
+  "fields": {
+    "name": "Вена"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 7,
+  "fields": {
+    "name": "Гамбург"
+  }
+},
+{
+  "model": "cities.city",
+  "pk": 9,
+  "fields": {
+    "name": "Берлин"
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 11,
+  "fields": {
+    "name": "Лондон - Гамбург",
+    "travel_times": 870,
+    "from_city": 4,
+    "to_city": 7,
+    "trains": [
+      4
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 12,
+  "fields": {
+    "name": "Лондон - Берлин",
+    "travel_times": 852,
+    "from_city": 4,
+    "to_city": 9,
+    "trains": [
+      5
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 13,
+  "fields": {
+    "name": "Лондон - Мадрид",
+    "travel_times": 1213,
+    "from_city": 4,
+    "to_city": 1,
+    "trains": [
+      6
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 14,
+  "fields": {
+    "name": "Мадрид - Берлин",
+    "travel_times": 1705,
+    "from_city": 1,
+    "to_city": 9,
+    "trains": [
+      7
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 15,
+  "fields": {
+    "name": "Мадрид - Вена",
+    "travel_times": 1724,
+    "from_city": 1,
+    "to_city": 6,
+    "trains": [
+      8
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 16,
+  "fields": {
+    "name": "Берлин - Гамбург",
+    "travel_times": 224,
+    "from_city": 9,
+    "to_city": 7,
+    "trains": [
+      9
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 17,
+  "fields": {
+    "name": "Берлин - Варшава",
+    "travel_times": 738,
+    "from_city": 9,
+    "to_city": 2,
+    "trains": [
+      10
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 18,
+  "fields": {
+    "name": "Берлин - Краков",
+    "travel_times": 597,
+    "from_city": 9,
+    "to_city": 5,
+    "trains": [
+      11
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 19,
+  "fields": {
+    "name": "Берлин - Вена",
+    "travel_times": 543,
+    "from_city": 9,
+    "to_city": 6,
+    "trains": [
+      12
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 20,
+  "fields": {
+    "name": "Гамбург - Берлин",
+    "travel_times": 228,
+    "from_city": 7,
+    "to_city": 9,
+    "trains": [
+      13
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 21,
+  "fields": {
+    "name": "Гамбург - Хельсинки",
+    "travel_times": 2553,
+    "from_city": 7,
+    "to_city": 3,
+    "trains": [
+      14
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 22,
+  "fields": {
+    "name": "Гамбург - Краков",
+    "travel_times": 882,
+    "from_city": 7,
+    "to_city": 5,
+    "trains": [
+      15
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 23,
+  "fields": {
+    "name": "Вена - Варшава",
+    "travel_times": 617,
+    "from_city": 6,
+    "to_city": 2,
+    "trains": [
+      16
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 24,
+  "fields": {
+    "name": "Вена - Хельсинки",
+    "travel_times": 3380,
+    "from_city": 6,
+    "to_city": 3,
+    "trains": [
+      17
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 25,
+  "fields": {
+    "name": "Вена - Краков",
+    "travel_times": 434,
+    "from_city": 6,
+    "to_city": 5,
+    "trains": [
+      18
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 26,
+  "fields": {
+    "name": "Варшава - Берлин",
+    "travel_times": 501,
+    "from_city": 2,
+    "to_city": 9,
+    "trains": [
+      19
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 27,
+  "fields": {
+    "name": "Варшава - Гамбург",
+    "travel_times": 498,
+    "from_city": 2,
+    "to_city": 7,
+    "trains": [
+      20
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 28,
+  "fields": {
+    "name": "Варшава - Хельсинки",
+    "travel_times": 3335,
+    "from_city": 2,
+    "to_city": 3,
+    "trains": [
+      21
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 29,
+  "fields": {
+    "name": "Варшава - Краков",
+    "travel_times": 305,
+    "from_city": 2,
+    "to_city": 5,
+    "trains": [
+      22
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 30,
+  "fields": {
+    "name": "Краков - Гамбург",
+    "travel_times": 809,
+    "from_city": 5,
+    "to_city": 7,
+    "trains": [
+      23
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 31,
+  "fields": {
+    "name": "Краков - Хельсинки",
+    "travel_times": 3421,
+    "from_city": 5,
+    "to_city": 3,
+    "trains": [
+      24
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 32,
+  "fields": {
+    "name": "Лондон - Хельсинки: 1",
+    "travel_times": 4641,
+    "from_city": 4,
+    "to_city": 3,
+    "trains": [
+      20,
+      10,
+      5,
+      14
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 33,
+  "fields": {
+    "name": "Лондон - Хельсинки: короткий маршрут",
+    "travel_times": 3423,
+    "from_city": 4,
+    "to_city": 3,
+    "trains": [
+      4,
+      14
+    ]
+  }
+},
+{
+  "model": "routes.route",
+  "pk": 36,
+  "fields": {
+    "name": "Лондон - Хельсинки: 5",
+    "travel_times": 4811,
+    "from_city": 4,
+    "to_city": 3,
+    "trains": [
+      11,
+      23,
+      5,
+      14
+    ]
+  }
+}
+]
