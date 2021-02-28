@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
 
 # Environment variables
 DB_NAME = os.environ.get('DB_NAME')
@@ -93,8 +94,6 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
-import dj_database_url
 
 db = dj_database_url.config()
 DATABASES['default'].update(db)
